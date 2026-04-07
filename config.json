@@ -1,0 +1,26 @@
+{
+  "distribution_id": "E14XDSNBPFY1EP",
+  "behavior": {
+    "paths": [
+      "*.css",
+      "/api/*",
+      "/ishita/",
+      "/ishita2/"
+    ],
+    "target_origin_id": "origin-app-primary",
+    "viewer_protocol_policy": "redirect-to-https",
+    "cache_policy_id": "658327ea-f89d-4fab-a63d-7e88639e58f6",
+    "origin_request_policy_id": "acba4595-bd28-49b8-b9fe-13317c0390fa",
+    "response_headers_policy_id": "60669652-455b-4ae9-85a4-c4c02393f86c",
+    "compress": true,
+    "allowed_methods": 2
+    ,
+      "_allowed_methods_options": {
+        "1": "GET, HEAD (read-only)",
+        "2": "GET, HEAD, OPTIONS (read with preflight)",
+        "3": "GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE (all methods)"
+      },
+      "_allowed_methods_note": "Set allowed_methods to 1, 2, or 3"
+  }
+}
+
